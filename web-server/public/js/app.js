@@ -8,7 +8,7 @@ const m2 = document.querySelector('#m2')
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
-
+ 
     const location = search.value
     m1.textContent = "Loading..." 
     m2.textContent = ''
